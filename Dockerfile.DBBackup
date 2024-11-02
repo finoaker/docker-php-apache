@@ -1,2 +1,3 @@
 FROM mcr.microsoft.com/mssql-tools
 RUN apt-get update && apt-get install -y mysql-client  && rm -rf /var/lib/apt/lists/*
+CMD /bin/bash
